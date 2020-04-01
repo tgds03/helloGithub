@@ -1,3 +1,0 @@
-git text
-it's modified!
-it's modified but on web!
