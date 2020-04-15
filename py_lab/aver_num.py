@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 print("Enter number of input : ", end='')
 n = int(input())
 sum = 0
