@@ -20,5 +20,5 @@ for word in wordlist:
 result = sorted(freq.items(), key=lambda x: x[1], reverse=True)
 
 
-for i in range(n):
-	print(f"{result[i][0]} : {result[i][1]}")
+for i in range(min(n, len(result))):
+	print(f"{result[i][0]}".ljust(10) + f"{result[i][1]}".rjust(10))
